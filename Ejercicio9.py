@@ -1,0 +1,5 @@
+nacimiento = input("Escribe tu fecha de nacimiento en formato dd/mm/aaaa: ")
+day, month, year = map(int, nacimiento.split('/'))
+print(f"Día: {day}")
+print(f"Mes: {month}")
+print(f"Año: {year}")
