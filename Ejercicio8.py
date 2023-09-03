@@ -1,0 +1,5 @@
+print("Escriba el precio de un producto:")
+prec = float(input(": "))
+euro = int(prec)
+centavo = int((prec - euro) * 100)
+print("El precio es de " , euro ,  " euros y " , centavo , "centavos")
